@@ -1,0 +1,34 @@
+{
+  "name": "@pkgjs/support-separate-repo",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pkgjs/support-separate-repo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pkgjs/support-separate-repo/issues"
+  },
+  "homepage": "https://github.com/pkgjs/support-separate-repo",
+  "support": {
+    "versions": [{
+      "version": "*",
+      "target": {
+        "node": "lts"
+      },
+      "response": {
+        "type": "time-permitting"
+      },
+      "backing": {
+        "hobby": "https://github.com/pkgjs/support"
+      }
+    }]
+  }
+}
